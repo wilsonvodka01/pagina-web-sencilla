@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>html + css</title>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;700&display=swap" rel="stylesheet">
+  <style>
+      
+  /* CSS RESET */ 
+  html, body, div, span, applet, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  a, abbr, acronym, address, big, cite, code,
+  del, dfn, em, img, ins, kbd, q, s, samp,
+  small, strike, strong, sub, sup, tt, var,
+  b, u, i, center,
+  dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td,
+  article, aside, canvas, details, embed, 
+  figure, figcaption, footer, header, hgroup, 
+  menu, nav, output, ruby, section, summary,
+  time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  /* HTML5 display-role reset for older browsers */
+  article, aside, details, figcaption, figure, 
+  footer, header, hgroup, menu, nav, section {
+    display: block;
+  }
+  body {
+    line-height: 1;
+  }
+  ol, ul {
+    list-style: none;
+  }
+  blockquote, q {
+    quotes: none;
+  }
+  blockquote:before, blockquote:after,
+  q:before, q:after {
+    content: '';
+    content: none;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  /* CSS RESET */
+  
+  body{
+    background-color: #004bbe;
+
+  }
+  header{
+    width: 1000px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: red;
+    position: relative;
+  }
+  header img{
+    position: absolute;
+    width: 200px;
+    top: 80px;
+    left: 30px;
+  }
+  header p{
+    position: relative;
+  }
+
+  </style>
+</head>
+<body>
+  <header>
+    <img src="img/logo.png" alt="imagen">
+    <p>wilson aelxander | 0499389237</p>
+    <ul>
+      <li class="selected">home</li>
+      <li>about</li>
+      <li>work</li>
+      <li>blog</li>
+      <li>contact</li>
+    </ul>
+  </header>
+  <div id="main">
+    <img src="img/spoon.png" alt="spoon">
+    <img src="img/line.png" alt="line">
+    <form>
+      <h3>Register</h3>
+      <input type="text" class="in" placeholder="name">
+      <input type="text" class="in" placeholder="email">
+      <h3>diners</h3>
+      <select name="" id="">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+        <select name="" id="">
+          <h3>table</h3>
+        <input type="radio" name="a">smoker
+        <input type="radio" name="a">no smoker
+        <input type="button" value="SEND">
+        </select>
+      </select>
+    </form>
+  </div>
+</body>
+</html>
